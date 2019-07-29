@@ -20,6 +20,8 @@ class Triangle
   
   def kind 
     if valid?
-      if @triangle_sides.uniq.length == 1 
+      if @triangle_sides.uniq.length == 1
+        return :equilateral 
+        elsif @triangle_sides.uniq.length == 2 
   # write code here
 end
