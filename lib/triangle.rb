@@ -7,6 +7,7 @@ class Triangle
   end
   
   def valid?
-    sum_one_two = @triangle_sides[0] + @triangle_sides
+    sum_one_two = @triangle_sides[0] + @triangle_sides[1]
+    sum_one_three = @triangle_sides[0] + @triangle_sides
   # write code here
 end
